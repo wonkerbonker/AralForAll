@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aral4All</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/f1dc9d5048.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+           Aral4All  <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="#land">Home</a></li>
+           <li><a href="#content">Problem</a></li>
+           <li><a href="#infographic">Resources</a></li>
+           <li><a href="#">School Database</a></li>
+        </ul>
+     </nav>
+     <section class="land" id="land">
+      <section class="parallax">
+         <img src="Assets/Parallax/stars.png" id="stars">
+         <div class="text">
+            <h1>Aral For All</h1>
+            <br>
+            <h2>Advocate for the accessibility of quality education for all.</h2>
+            <br>
+         </div>
+         <img src="Assets/Parallax/Sun_Mesa de trabajo 1.png" id="sun">
+         <img src="Assets/Parallax/Behindest Mountain_Mesa de trabajo 1.png" id="lastmountain">
+         <img src="Assets/Parallax/Birds_Mesa de trabajo 1.png" id="birds">
+         <img src="Assets/Parallax/Behind School Mountain_Mesa de trabajo 1.png" id="behindschool">
+         <img src="Assets/Parallax/School Mountain_Mesa de trabajo 1.png" id="school">
+         <img src="Assets/Parallax/Front Mountain_Mesa de trabajo 1.png" id="mountain1">
+         <img src="Assets/Parallax/Forest Back_Mesa de trabajo 1.png" id="forest2">
+         <img src="Assets/Parallax/Forest Front_Mesa de trabajo 1.png" id="forest1">
+         <img src="Assets/Parallax/gradient.png" id="gradient">
+
+      </section>
+     </section>
+     <section class="content" id="content">
+      <div class="text1">
+         <h1>5.5</h1>
+         Million
+      </div>
+      <div class="text2">
+         Many children who suffer from dyslexia, dyscalculia, dysgraphia, ADHD and Attention Deficit Disorder or ADD in the Philippines struggle to find quality education that can accommodate their unique needs. As a matter of fact, a study conducted by child rights organization “Save the Children Philippines” stated that 5.5 million Filipino learners with disabilities “already have limited access to quality and inclusive education” even before the pandemic.
+
+      </div>
+     </section>
+
+     <section class="content" id="content2">
+      <div class="text1">
+         <h1>No Budget for SPED</h1>
+         in National Expenditure Program
+      </div>
+      <img src="Assets/Parallax/PHOTO-1.png" style="display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top: 5vh;
+      margin-bottom:5vh;">
+      <div class="text2">
+         The proposed budget of DEPED for special education for 2023 was not considered in the Natural Expenditure Program. Special Education and children with disabilities are still not being made a priority in the governments programs. When it comes to actually putting in funding, they can't seem to do it.
+
+      </div>
+     </section>
+    
+     <section class="content" id="#content2">
+      <div class="text1">
+         <h1>Infographic Link</h1>
+         for spreading of awareness.
+      </div>
+      <a id="infographic" href="https://www.canva.com/design/DAFNjv7PG08/ELoIyVe9k0IgFPHlzAB1zw/view?utm_content=DAFNjv7PG08&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="button"  style="display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5vh;
+      margin-bottom:5vh;
+      font-size:10vw;">Infographic</a>
+      <div class="text2">
+         The above button will direct you to an infographic that summarizes the issue. You are free to utilize it as you please.
+
+      </div>
+     </section>
+    <script src="script.js"></script>
+    <script>
+      let sun = document.getElementById('sun');
+      let lastmountain = document.getElementById('lastmountain');
+      let birds = document.getElementById('birds');
+      let behindschool = document.getElementById('behindschool');
+      let school = document.getElementById('school');
+      let mountain1 = document.getElementById('mountain1');
+      let forest2 = document.getElementById('forest2');
+      let forest1 = document.getElementById('forest1');
+
+      window.addEventListener('scroll', function(){
+         let value = window.scrollY;
+         sun.style.bottom = value = 0.95+'px';
+
+      }
+    </script>
+
+</body>
+</html>
